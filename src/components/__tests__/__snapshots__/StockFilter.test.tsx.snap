@@ -1,0 +1,115 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`StockFilter > renders correctly with all tickers 1`] = `
+<div>
+  <div
+    class="stock-filter"
+  >
+    <div
+      class="search-container"
+    >
+      <input
+        class="search-input"
+        placeholder="Rechercher une action..."
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="ticker-list"
+    >
+      <button
+        class="ticker-button "
+      >
+        AAPL
+      </button>
+      <button
+        class="ticker-button "
+      >
+        MSFT
+      </button>
+      <button
+        class="ticker-button "
+      >
+        GOOGL
+      </button>
+      <button
+        class="ticker-button "
+      >
+        TSLA
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StockFilter > renders correctly with selected ticker 1`] = `
+<div>
+  <div
+    class="stock-filter"
+  >
+    <div
+      class="search-container"
+    >
+      <input
+        class="search-input"
+        placeholder="Rechercher une action..."
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="ticker-list"
+    >
+      <button
+        class="ticker-button selected"
+      >
+        AAPL
+      </button>
+      <button
+        class="ticker-button "
+      >
+        MSFT
+      </button>
+      <button
+        class="ticker-button "
+      >
+        GOOGL
+      </button>
+      <button
+        class="ticker-button "
+      >
+        TSLA
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StockFilter > renders with empty tickers list 1`] = `
+<div>
+  <div
+    class="stock-filter"
+  >
+    <div
+      class="search-container"
+    >
+      <input
+        class="search-input"
+        placeholder="Rechercher une action..."
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="ticker-list"
+    >
+      <div
+        class="no-results"
+      >
+        Aucune action trouvée
+      </div>
+    </div>
+  </div>
+</div>
+`;

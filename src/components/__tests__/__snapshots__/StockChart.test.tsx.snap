@@ -1,0 +1,195 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`StockChart > renders correctly when no stock evolution is provided 1`] = `
+<div>
+  <div
+    class="chart-container"
+  >
+    <div
+      class="no-data"
+    >
+      Sélectionnez une action pour voir son évolution
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StockChart > renders correctly with stock evolution data 1`] = `
+<div>
+  <div
+    class="chart-container"
+  >
+    <div
+      class="chart-header"
+    >
+      <h2>
+        AAPL
+      </h2>
+      <div
+        class="evolution positive"
+      >
+        +50.85%
+      </div>
+    </div>
+    <div
+      data-testid="responsive-container"
+    >
+      <div
+        data-testid="line-chart"
+      >
+        <div
+          data-testid="cartesian-grid"
+        />
+        <div
+          data-testid="x-axis"
+        />
+        <div
+          data-testid="y-axis"
+        />
+        <div
+          data-testid="tooltip"
+        />
+        <div
+          data-testid="line"
+        />
+      </div>
+    </div>
+    <div
+      class="chart-info"
+    >
+      <div
+        class="info-item"
+      >
+        <span
+          class="label"
+        >
+          Prix initial:
+        </span>
+        <span
+          class="value"
+        >
+          $132.69
+        </span>
+      </div>
+      <div
+        class="info-item"
+      >
+        <span
+          class="label"
+        >
+          Prix final:
+        </span>
+        <span
+          class="value"
+        >
+          $200.15
+        </span>
+      </div>
+      <div
+        class="info-item"
+      >
+        <span
+          class="label"
+        >
+          Évolution:
+        </span>
+        <span
+          class="value positive"
+        >
+          +50.85%
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`StockChart > renders correctly with zero evolution 1`] = `
+<div>
+  <div
+    class="chart-container"
+  >
+    <div
+      class="chart-header"
+    >
+      <h2>
+        AAPL
+      </h2>
+      <div
+        class="evolution positive"
+      >
+        +0.00%
+      </div>
+    </div>
+    <div
+      data-testid="responsive-container"
+    >
+      <div
+        data-testid="line-chart"
+      >
+        <div
+          data-testid="cartesian-grid"
+        />
+        <div
+          data-testid="x-axis"
+        />
+        <div
+          data-testid="y-axis"
+        />
+        <div
+          data-testid="tooltip"
+        />
+        <div
+          data-testid="line"
+        />
+      </div>
+    </div>
+    <div
+      class="chart-info"
+    >
+      <div
+        class="info-item"
+      >
+        <span
+          class="label"
+        >
+          Prix initial:
+        </span>
+        <span
+          class="value"
+        >
+          $132.69
+        </span>
+      </div>
+      <div
+        class="info-item"
+      >
+        <span
+          class="label"
+        >
+          Prix final:
+        </span>
+        <span
+          class="value"
+        >
+          $200.15
+        </span>
+      </div>
+      <div
+        class="info-item"
+      >
+        <span
+          class="label"
+        >
+          Évolution:
+        </span>
+        <span
+          class="value positive"
+        >
+          +0.00%
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
