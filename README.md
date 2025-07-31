@@ -1,4 +1,4 @@
-# Visualisateur d'Évolution d'Actions (test Linxea)
+# Visualisateur d'évolution d'actions (test Linxea)
 
 Une application pour visualiser l'évolution annuelle du cours des actions d'une entreprise créé dans le cadre d'un test technique.
 
